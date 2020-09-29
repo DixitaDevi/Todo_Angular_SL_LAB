@@ -1,0 +1,10 @@
+<div class="input">
+    <input #newtodo
+      (keyup.enter)="addtodo(newtodo.value)"
+      (blur)="addtodo(newtodo.value); newtodo.value='' ">
+
+    <span><button (click)="addtodo(newtodo.value)">Add New</button></span>
+</div>
+
+
+<app-todo-list [todos]="todos"></app-todo-list>

@@ -1,0 +1,26 @@
+.input{
+    text-align:center;
+}
+
+.input input{
+    height:30px;
+    width:50%;
+}
+
+span{
+    position: absolute;
+    display: inline-block;
+}
+
+button
+{
+    height: 40px;
+    background-color: steelblue;
+    color: white;
+    margin-left: 10px;
+}
+
+.List ul{
+    list-style-type: none;
+    text-align:center;
+}
